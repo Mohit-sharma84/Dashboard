@@ -2,23 +2,22 @@ import React from 'react';
 import Dashboard from './components/dashboard';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-// Define your theme
+
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2', // Blue color for primary elements
+      main: '#1976d2', 
     },
     secondary: {
-      main: '#dc004e', // Pink color for secondary elements
+      main: '#dc004e',
     },
   },
   typography: {
-    fontFamily: 'Roboto, sans-serif', // Default font family
+    fontFamily: 'Roboto, sans-serif',
     h1: {
-      fontSize: '2.5rem', // Custom font size for h1
-      fontWeight: 600, // Custom font weight for h1
+      fontSize: '2.5rem',
+      fontWeight: 600, 
     },
-    // Add more typography configurations as needed
   },
 });
 

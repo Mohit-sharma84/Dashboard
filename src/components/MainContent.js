@@ -1,9 +1,7 @@
-// MainContent.js
+
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@mui/styles';
 import Container from '@mui/material/Container';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Table from '@mui/material/Table';
 import TableContainer from '@mui/material/TableContainer';
@@ -38,15 +36,7 @@ const MainContent = () => {
         <Typography variant="h4" gutterBottom>
           Welcome to the cojective labs Dashboard
         </Typography>
-        <Card>
-          <CardContent>
-            <Typography variant="h5" component="h2">
-Card Content            </Typography>
-            <Typography variant="body2" component="p">
-              This is some  card content.
-            </Typography>
-          </CardContent>
-        </Card>
+        
         <TableContainer component={Paper}>
           <Table>
             <TableHead>
