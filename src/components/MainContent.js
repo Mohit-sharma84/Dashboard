@@ -57,9 +57,6 @@ const MainContent = () => {
             </TableBody>
           </Table>
         </TableContainer>
-        <Button variant="contained" color="primary">
-          Primary Button
-        </Button>
       </Container>
     </main>
   );
